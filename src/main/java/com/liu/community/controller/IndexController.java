@@ -1,4 +1,4 @@
-package com.liu.community.Controller;
+package com.liu.community.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
