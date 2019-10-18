@@ -12,3 +12,17 @@
 ##工具
 [Git](http://gti-scm.com/dowload)  
 [Visual-Paradigm](https://www.visual-paradigm.com)
+
+##脚本
+''' sql
+CREATE  TABLE USER
+(
+    ACCOUNT_ID VARCHAR(100),
+    NAME VARCHAR(50),
+    TOKEN CHARACTER(36),
+    GMT_CREATE BIGINT,
+    GMT_MODIFIED BIGINT,
+    ID INT DEFAULT () AUTO_INTCREMENT PRIMATY KEY NOT NULL 
+)
+
+'''
