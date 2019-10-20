@@ -42,7 +42,7 @@ public class AuthorizeController {
         accessTokenDTO.setRedirect_uri(redirectUri);
         String accessToken = gitHubProvider.grtAccessToken(accessTokenDTO);
         GithubUser githubUser = gitHubProvider.getUser(accessToken);
-        if (githubUser != null){
+        if (githubUser != null && githubUser.getId()!=null){
             User user = new User();
             user.setName(githubUser.getName());
             user.setGmtCreate(System.currentTimeMillis());
