@@ -11,7 +11,9 @@
 
 ##工具
 [Git](http://gti-scm.com/dowload)  
-[Visual-Paradigm](https://www.visual-paradigm.com)
+[Visual-Paradigm](https://www.visual-paradigm.com)  
+[Lombok](https://projectlombok.org/)
+
 
 ##脚本
 ''' sql
