@@ -5,7 +5,8 @@
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)  
 [es](https://elasticsearch.cn)  
 [Build GitHub OAuth APP](https://developer.github.com/apps/building-oauth-apps/)  
-[BootStrap](https://v3.bootcss.com/getting-started/)
+[BootStrap](https://v3.bootcss.com/getting-started/)  
+[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
 
 
 

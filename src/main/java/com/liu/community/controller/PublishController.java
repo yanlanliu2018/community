@@ -29,7 +29,7 @@ public class PublishController {
     }
 
     @PostMapping("/publish")
-    public String doPublidh(@RequestParam(value = "title",required = false)String title,
+    public String doPublish(@RequestParam(value = "title",required = false)String title,
                             @RequestParam(value = "description",required = false)String description,
                             @RequestParam(value = "tag",required = false)String tag,
                             HttpServletRequest request,
