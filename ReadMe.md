@@ -6,7 +6,8 @@
 [es](https://elasticsearch.cn)  
 [Build GitHub OAuth APP](https://developer.github.com/apps/building-oauth-apps/)  
 [BootStrap](https://v3.bootcss.com/getting-started/)  
-[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)
+[thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html)  
+[Spring Boot Reference Guide](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)
 
 
 
