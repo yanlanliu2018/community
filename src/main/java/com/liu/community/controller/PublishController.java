@@ -81,7 +81,7 @@ public class PublishController {
         question.setCreator(user.getId());
         question.setId(id);
         questionService.createOrUpdate(question);
-        questionMapper.create(question);
+//        questionMapper.create(question);
         return "redirect:/";
     }
 

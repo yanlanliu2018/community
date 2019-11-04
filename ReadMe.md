@@ -18,7 +18,7 @@
 
 
 ##脚本
-''' sql
+''' sql  
 CREATE  TABLE USER
 (
     ACCOUNT_ID VARCHAR(100),
@@ -29,4 +29,9 @@ CREATE  TABLE USER
     ID INT DEFAULT () AUTO_INTCREMENT PRIMATY KEY NOT NULL 
 )
 
+'''
+
+'''bash  
+mvn flyway:migrate
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate
 '''
