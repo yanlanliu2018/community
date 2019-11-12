@@ -4,6 +4,7 @@ import com.liu.community.DTO.PaginationDTO;
 import com.liu.community.DTO.QuestionDTO;
 import com.liu.community.exception.CustomizeErrorCode;
 import com.liu.community.exception.CustomizeException;
+import com.liu.community.mapper.QuestionExtMapper;
 import com.liu.community.mapper.QuestionMapper;
 import com.liu.community.mapper.UserMapper;
 import com.liu.community.model.Question;
@@ -23,6 +24,8 @@ public class QuestionService {
     private QuestionMapper questionMapper;
     @Autowired
     private UserMapper userMapper;
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
 
     public PaginationDTO list(Integer page, Integer size){
 
@@ -69,13 +72,13 @@ public class QuestionService {
         return paginationDTO;
     }
 
-    public PaginationDTO list(Integer userId, Integer page, Integer size) {
+    public PaginationDTO list(Long userId, Integer page, Integer size) {
         PaginationDTO paginationDTO = new PaginationDTO();
 
         Integer totalPage;
 
         QuestionExample questionExample = new QuestionExample();
-        questionExample.createCriteria().andCommentCountEqualTo(userId);
+        questionExample.createCriteria().andCreatorEqualTo(userId);
         Integer totalCount = (int)questionMapper.countByExample(questionExample);
 
         if (totalCount%size == 0){
@@ -114,7 +117,7 @@ public class QuestionService {
         return paginationDTO;
     }
 
-    public QuestionDTO getById(Integer id) {
+    public QuestionDTO getById(Long id) {
         Question question = questionMapper.selectByPrimaryKey(id);
         if (question == null){
             throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
@@ -145,5 +148,12 @@ public class QuestionService {
                 throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
             }
         }
+    }
+
+    public void incView(Long id){
+        Question question = new Question();
+        question.setViewCount(1);
+        question.setId(id);
+        questionExtMapper.incView(question);
     }
 }

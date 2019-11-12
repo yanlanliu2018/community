@@ -1,0 +1,1 @@
+alter table COMMENT add conent VARCHAR(1024) not null;
