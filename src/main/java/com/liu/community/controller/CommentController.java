@@ -1,6 +1,6 @@
 package com.liu.community.controller;
 
-import com.liu.community.DTO.CommentDTO;
+import com.liu.community.DTO.CommentCreateDTO;
 import com.liu.community.DTO.ResultDTO;
 import com.liu.community.exception.CustomizeErrorCode;
 import com.liu.community.model.Comment;
@@ -23,15 +23,15 @@ public class CommentController {
 
     @ResponseBody
     @RequestMapping(value = "/comment", method = RequestMethod.POST)
-    public Object post(@RequestBody CommentDTO commentDTO,HttpServletRequest request) {
+    public Object post(@RequestBody CommentCreateDTO commentCreateDTO, HttpServletRequest request) {
         User user = (User) request.getSession().getAttribute("user");
         if (user == null) {
             return ResultDTO.errorOf(CustomizeErrorCode.NO_LOGIN);
         }
         Comment comment = new Comment();
-        comment.setParentId(commentDTO.getParentId());
-        comment.setConent(commentDTO.getContent());
-        comment.setType(commentDTO.getType());
+        comment.setParentId(commentCreateDTO.getParentId());
+        comment.setConent(commentCreateDTO.getContent());
+        comment.setType(commentCreateDTO.getType());
         comment.setGmtCreate(System.currentTimeMillis());
         comment.setGmtModified(comment.getGmtCreate());
         comment.setCommentator(user.getId());
