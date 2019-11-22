@@ -2,42 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f4e247-bad8-457e-9375-72e7ea378ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/CommentExtMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__Add_content_count_to_comment_table.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentExtMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/wechat.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5710f4c-5e7f-4a47-adc1-6e7beca3743b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5710f4c-5e7f-4a47-adc1-6e7beca3743b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/DataBase.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/DataBase.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/DataBase.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/DataBase.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/CommentExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/CommentExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/QuestionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/QuestionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/model/UserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/model/UserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/DTO/CommentDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/DTO/CommentDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$Criteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$Criterion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$Criterion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$GeneratedCriteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/model/CommentExample$GeneratedCriteria.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/service/CommentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/mapper/QuestionExtMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/mapper/QuestionExtMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/service/QuestionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -103,7 +85,30 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/community.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+              <folding>
+                <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -158,31 +163,31 @@
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V8__Change_id_colum_type.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/advice/CustomizeExceptionHandle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/QuestionDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/navigation.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentCreateDTO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/exception/CustomizeErrorCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/ResultDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/moment.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/community.js" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V9__Add_content_count_to_comment_table.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserExtMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserExtMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/CommentExtMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/service/CommentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/CommentExtMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/QuestionDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/question.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/community.css" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/CommentExtMapper.xml" />
       </list>
     </option>
   </component>
@@ -209,10 +214,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="767" />
-    <option name="y" value="-10" />
-    <option name="width" value="979" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -251,39 +255,6 @@
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,7 +263,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="migration" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="community" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +271,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="community" type="b2602c69:ProjectViewProjectNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,10 +300,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574323212843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574429672939" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL&#10;H2" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -332,22 +313,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\JavaProject\community\src\main\java\com\liu\community\controller" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.liu.community.interceptor" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\community\src\main\resources\static\img" />
       <recent name="D:\JavaProject\community\src\main\resources\mapper" />
       <recent name="D:\JavaProject\community\src\main\resources\db\migration" />
       <recent name="D:\JavaProject\community\src\main\resources\templates" />
       <recent name="D:\JavaProject\community\src\main\java\com\liu\community" />
-      <recent name="D:\JavaProject\community\src\main\java\com\liu\community\provider" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.liu.community.mapper" />
       <recent name="com.liu.community.exception" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.liu.community.interceptor" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\community\src\main\java\com\liu\community\controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -400,17 +381,17 @@
       <workItem from="1574060146441" duration="23649000" />
       <workItem from="1574232697103" duration="8405000" />
       <workItem from="1574241457927" duration="11856000" />
-      <workItem from="1574323745068" duration="551000" />
+      <workItem from="1574323745068" duration="21345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271956000" />
+    <option name="totallyTimeSpent" value="292750000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1994382" visible="true" weight="0.308311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" visible="true" weight="0.308311" />
       <window_info id="Structure" order="1" sideWeight="0.8005618" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -420,8 +401,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.9532578" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.8286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3796034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.5991501" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39518413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -438,8 +419,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.24932976" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.2614108" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2955764" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.2613941" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -447,7 +428,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.1994382" visible="true" weight="0.30428955" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" weight="0.308311" />
       <window_info id="Structure" order="1" sideWeight="0.8005618" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -457,8 +438,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.9532578" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798927" weight="0.8286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3796034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49798927" visible="true" weight="0.5991501" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39518413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -475,8 +456,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.24932976" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.2614108" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2955764" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.2613941" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -488,44 +469,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V5__Create_comment_table.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/ProfileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/exception/CustomizeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/QuestionDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -554,30 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/PaginationDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -672,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/model/Question.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2538">
-          <caret line="197" column="19" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/model/QuestionExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -690,30 +606,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3321">
           <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3483">
-          <caret line="129" column="24" lean-forward="true" selection-start-line="129" selection-start-column="24" selection-end-line="129" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
@@ -734,13 +626,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserExtMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserExtMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -782,16 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.10.RELEASE/spring-beans-5.1.10.RELEASE.jar!/org/springframework/beans/BeanUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
@@ -816,39 +691,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="57" column="75" selection-start-line="57" selection-start-column="75" selection-end-line="57" selection-end-column="75" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e5710f4c-5e7f-4a47-adc1-6e7beca3743b/database/DATABASE/schema/PUBLIC/table/QUESTION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e5710f4c-5e7f-4a47-adc1-6e7beca3743b/database/DATABASE/schema/PUBLIC/table/COMMENT">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/community.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -915,6 +757,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/PaginationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V3__Create_question_table.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/QuestionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/model/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="91" column="31" lean-forward="true" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e5710f4c-5e7f-4a47-adc1-6e7beca3743b/database/DATABASE/schema/PUBLIC/table/QUESTION">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e5710f4c-5e7f-4a47-adc1-6e7beca3743b/database/DATABASE/schema/PUBLIC/table/COMMENT">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e5710f4c-5e7f-4a47-adc1-6e7beca3743b/database/DATABASE/schema/PUBLIC/table/USER">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/QuestionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
+          <folding>
+            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/community.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
         </state>
       </provider>
     </entry>
