@@ -120,3 +120,16 @@ body{
     margin-left: 25px;
     width: 80%;
 }
+
+.publish-tag-tab{
+    display: none;
+    margin-top: 10px;
+}
+
+.tab-pane{
+    margin-top: 10px;
+}
+
+.label{
+    margin-left: 5px;
+}

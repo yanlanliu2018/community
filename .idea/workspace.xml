@@ -2,25 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8f4e247-bad8-457e-9375-72e7ea378ed1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/wechat.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e5710f4c-5e7f-4a47-adc1-6e7beca3743b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e5710f4c-5e7f-4a47-adc1-6e7beca3743b.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/TagDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/cache/TagCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/DataBase.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/DataBase.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/DataBase.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/DataBase.trace.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionExtMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/QuestionExtMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/controller/QuestionController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/mapper/QuestionExtMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/mapper/QuestionExtMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/liu/community/service/QuestionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/liu/community/service/QuestionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionExtMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/publish.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,25 +77,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/community.css">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/cache/TagCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+            <state relative-caret-position="305">
+              <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/question.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-              <folding>
-                <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -116,8 +107,8 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -137,12 +128,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/ProfileController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/interceptor/WebConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/profile.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/publish.html" />
         <option value="$PROJECT_DIR$/src/main/resources/generator.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/CommunityApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/interceptor/SessionInterceptor.java" />
@@ -161,7 +149,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V7__Change_id_colum_type.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V5__Create_comment_table.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V8__Change_id_colum_type.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/advice/CustomizeExceptionHandle.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/navigation.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentCreateDTO.java" />
@@ -170,7 +157,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/ResultDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/moment.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/community.js" />
         <option value="$PROJECT_DIR$/src/main/resources/db/migration/V9__Add_content_count_to_comment_table.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/QuestionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/mapper/UserExtMapper.java" />
@@ -187,7 +173,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/service/QuestionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/question.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/DTO/TagDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/community.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/community.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/publish.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/cache/TagCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java" />
       </list>
     </option>
   </component>
@@ -227,6 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -255,40 +248,29 @@
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="community" type="b2602c69:ProjectViewProjectNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="community" type="b2602c69:ProjectViewProjectNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="community" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="DTO" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,7 +282,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574429672939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574736250935" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect" value="MySQL&#10;H2" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../leetcode" />
@@ -382,16 +364,21 @@
       <workItem from="1574232697103" duration="8405000" />
       <workItem from="1574241457927" duration="11856000" />
       <workItem from="1574323745068" duration="21345000" />
+      <workItem from="1574429865002" duration="156000" />
+      <workItem from="1574680711512" duration="1992000" />
+      <workItem from="1574685118124" duration="2334000" />
+      <workItem from="1574730312365" duration="5931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292750000" />
+    <option name="totallyTimeSpent" value="303163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" visible="true" weight="0.308311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" visible="true" weight="0.21045576" />
       <window_info id="Structure" order="1" sideWeight="0.8005618" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -408,7 +395,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.398017" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47450426" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47383308" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -428,7 +415,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" weight="0.308311" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.1994382" weight="0.3163539" />
       <window_info id="Structure" order="1" sideWeight="0.8005618" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -445,7 +432,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.398017" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47450426" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.47383308" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5020107" side_tool="true" weight="0.39943343" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
@@ -456,7 +443,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.2955764" />
+      <window_info anchor="right" id="Database" order="3" weight="0.2955764" />
       <window_info anchor="right" id="Maven" order="4" weight="0.2613941" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
@@ -469,34 +456,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/exception/CustomizeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/AccessTokenDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/GithubUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/CommentCreateDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -585,13 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/community.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="83" column="41" lean-forward="true" selection-start-line="83" selection-start-column="41" selection-end-line="83" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -882,7 +834,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="602">
           <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
           <folding>
             <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -891,10 +843,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/DTO/TagDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/community.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="121" column="40" selection-start-line="121" selection-start-column="40" selection-end-line="121" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!block;n#post#0" />
+            <element signature="n#!!block;n#comment2target#0" />
+            <element signature="n#!!block;n#comment#0" />
+            <element signature="n#!!block;n#collapseComments#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/community.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="113" column="19" lean-forward="true" selection-start-line="113" selection-start-column="19" selection-end-line="113" selection-end-column="19" />
+        <state relative-caret-position="548">
+          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/publish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="48" column="55" selection-start-line="48" selection-start-column="55" selection-end-line="48" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/cache/TagCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liu/community/controller/PublishController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
         </state>
       </provider>
     </entry>
