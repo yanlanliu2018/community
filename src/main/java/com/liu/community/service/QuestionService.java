@@ -31,7 +31,7 @@ public class QuestionService {
 
     public PaginationDTO list(Integer page, Integer size){
 
-        PaginationDTO paginationDTO = new PaginationDTO();
+        PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
 
         Integer totalPage;
 
@@ -71,13 +71,13 @@ public class QuestionService {
             questionDTOList.add(questionDTO);
         }
 
-        paginationDTO.setQuestionDTOS(questionDTOList);
+        paginationDTO.setData(questionDTOList);
 
         return paginationDTO;
     }
 
     public PaginationDTO list(Long userId, Integer page, Integer size) {
-        PaginationDTO paginationDTO = new PaginationDTO();
+        PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
 
         Integer totalPage;
 
@@ -116,7 +116,7 @@ public class QuestionService {
             questionDTOList.add(questionDTO);
         }
 
-        paginationDTO.setQuestionDTOS(questionDTOList);
+        paginationDTO.setData(questionDTOList);
 
         return paginationDTO;
     }
