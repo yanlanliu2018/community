@@ -49,26 +49,26 @@
             <nav aria-label="Page navigation">
                 <ul class="pagination">
                     <li th:if="${paginationDTO.showFirstPage}">
-                        <a href="/?page=1" aria-label="Previous">
+                        <a href=@{/(page=1,search=${search})} aria-label="Previous">
                             <span aria-hidden="true">&lt;&lt;</span>
                         </a>
                     </li>
                     <li th:if="${paginationDTO.showPrevious}">
-                        <a th:href="@{/(page=${paginationDTO.page - 1})}" aria-label="Previous">
+                        <a th:href="@{/(page=${paginationDTO.page - 1},search=${search})}" aria-label="Previous">
                             <span aria-hidden="true">&lt;</span>
                         </a>
                     </li>
                     <li th:each="page:${paginationDTO.pages}" th:class="${paginationDTO.page == page}?'active':''">
-                        <a th:href="@{/(page=${page})}" th:text="${page}">
+                        <a th:href="@{/(page=${page},search=${search})}" th:text="${page}">
                         </a>
                     </li>
                     <li th:if="${paginationDTO.showNext}">
-                        <a th:href="@{/(page=${paginationDTO.page + 1})}" aria-label="Next">
+                        <a th:href="@{/(page=${paginationDTO.page + 1},search=${search})}" aria-label="Next">
                             <span aria-hidden="true">&gt;</span>
                         </a>
                     </li>
                     <li th:if="${paginationDTO.showEndPage}">
-                        <a th:href="@{/(page=${paginationDTO.totalPage})}" aria-label="Next">
+                        <a th:href="@{/(page=${paginationDTO.totalPage},search=${search})}" aria-label="Next">
                             <span aria-hidden="true">&gt;&gt;</span>
                         </a>
                     </li>
@@ -76,9 +76,13 @@
             </nav>
         </div>
         <div class="col-lg-3 col-lm-12 col-sm-12 col-xs-12">
-            <h3>热门话题</h3>
+            <div class="col-lg-12 col-lm-12 col-sm-12 col-xs-12">
+                <h4>站长微信</h4>
+                <img class="img-thumbnail question-wechat" src="/images/wechat.jpg">
+            </div>
         </div>
     </div>
 </div>
+<div th:insert="~{footer::foot}"></div>
 </body>
 </html>

@@ -2,6 +2,7 @@ package com.liu.community.service;
 
 import com.liu.community.DTO.PaginationDTO;
 import com.liu.community.DTO.QuestionDTO;
+import com.liu.community.DTO.QuestionQueryDTO;
 import com.liu.community.exception.CustomizeErrorCode;
 import com.liu.community.exception.CustomizeException;
 import com.liu.community.mapper.QuestionExtMapper;
@@ -29,13 +30,19 @@ public class QuestionService {
     @Autowired
     private QuestionExtMapper questionExtMapper;
 
-    public PaginationDTO list(Integer page, Integer size){
+    public PaginationDTO list(Integer page, Integer size, String search){
+        if (search!=null){
+            search = search.replace(" ", "|");
+        }
 
         PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
 
         Integer totalPage;
 
-        Integer totalCount = (int)questionMapper.countByExample(new QuestionExample());
+        QuestionQueryDTO questionQueryDTO = new QuestionQueryDTO();
+        questionQueryDTO.setSearch(search);
+
+        Integer totalCount = questionExtMapper.countBySearch(questionQueryDTO);
 
         if (totalCount%size == 0){
             totalPage = totalCount/size;
@@ -54,10 +61,11 @@ public class QuestionService {
         paginationDTO.setPagination(totalPage,page);
 
         Integer offset = size*(page-1);
-        QuestionExample questionExample = new QuestionExample();
-        questionExample.setOrderByClause("gmt_create desc");
+
+        questionQueryDTO.setSize(size);
+        questionQueryDTO.setPage(offset);
         List<Question> questionList =
-                questionMapper.selectByExampleWithBLOBsWithRowbounds(questionExample,new RowBounds(offset,size));
+                questionExtMapper.selectBySearch(questionQueryDTO);
 
         List<QuestionDTO> questionDTOList = new ArrayList<>();
 
@@ -83,6 +91,7 @@ public class QuestionService {
 
         QuestionExample questionExample = new QuestionExample();
         questionExample.createCriteria().andCreatorEqualTo(userId);
+        questionExample.setOrderByClause("gmt_create desc");
         Integer totalCount = (int)questionMapper.countByExample(questionExample);
 
         if (totalCount%size == 0){
