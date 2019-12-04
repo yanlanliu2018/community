@@ -1,1 +1,0 @@
-alter table COMMENT add conent_count INT DEFAULT 0;
