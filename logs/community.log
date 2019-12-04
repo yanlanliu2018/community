@@ -1,0 +1,15 @@
+2019-12-04 13:00:10.390  INFO 134564 --- [restartedMain] com.liu.community.CommunityApplication   : Starting CommunityApplication on DESKTOP-0M9F8QI with PID 134564 (D:\JavaProject\community\target\classes started by Zhang in D:\JavaProject\community)
+2019-12-04 13:00:10.393  INFO 134564 --- [restartedMain] com.liu.community.CommunityApplication   : No active profile set, falling back to default profiles: default
+2019-12-04 13:00:10.475  INFO 134564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-12-04 13:00:10.476  INFO 134564 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-12-04 13:00:10.704  WARN 134564 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2019-12-04 13:00:12.789  INFO 134564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2019-12-04 13:00:12.825  INFO 134564 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-12-04 13:00:12.825  INFO 134564 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-12-04 13:00:12.968  INFO 134564 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-12-04 13:00:12.968  INFO 134564 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2492 ms
+2019-12-04 13:00:14.698  INFO 134564 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-12-04 13:00:14.780  INFO 134564 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2019-12-04 13:00:15.055  INFO 134564 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-12-04 13:00:15.124  INFO 134564 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2019-12-04 13:00:15.128  INFO 134564 --- [restartedMain] com.liu.community.CommunityApplication   : Started CommunityApplication in 5.683 seconds (JVM running for 7.088)
