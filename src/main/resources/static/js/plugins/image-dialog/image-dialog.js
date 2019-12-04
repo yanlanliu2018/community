@@ -162,6 +162,7 @@
                             loading(false);
 
                             var body = (uploadIframe.contentWindow ? uploadIframe.contentWindow : uploadIframe.contentDocument).document.body;
+                            // var json = body.getElementsByTagName("pre")[0];
                             var jsonContainer = body.getElementsByTagName("pre")[0];
                             var json = (jsonContainer.innerText) ? jsonContainer.innerText : ( (jsonContainer.textContent) ? jsonContainer.textContent : null);
 
