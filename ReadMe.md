@@ -1,4 +1,26 @@
 ##liu-community
+
+##部署
+-git 
+-JDK
+-Maven
+-MySQL
+(备注：因为是SpringBoot项目，这里不需要安装Tomcat)
+
+##步骤
+- yum update
+- yum install git
+- mkdir app
+- cd app
+- git clone https://github.com/yanlanliu2018/community.git
+- yum install maven
+- mvn -v
+- pwd
+- mvn compile package
+
+
+
+
 ##资料
 
 [Spring 文档](https://spring.io/guides)  
