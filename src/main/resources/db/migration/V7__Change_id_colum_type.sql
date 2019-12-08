@@ -1,3 +1,3 @@
-alter table COMMENT alter column COMMENTATOR bigint not null;
-alter table QUESTION alter column ID bigint default not null;
-alter table USER alter column ID bigint default not null;
+alter table COMMENT modify COMMENTATOR bigint not null;
+alter table QUESTION modify ID bigint auto_increment not null;
+alter table USER modify ID bigint auto_increment not null;
