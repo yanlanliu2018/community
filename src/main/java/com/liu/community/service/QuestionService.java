@@ -31,8 +31,10 @@ public class QuestionService {
     private QuestionExtMapper questionExtMapper;
 
     public PaginationDTO list(Integer page, Integer size, String search){
-        if (search!=null){
+        if (search!=null && search!=""){
             search = search.replace(" ", "|");
+        }else {
+            search = null;
         }
 
         PaginationDTO<QuestionDTO> paginationDTO = new PaginationDTO<>();
