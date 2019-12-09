@@ -21,16 +21,16 @@ import java.util.Calendar;
 import java.util.UUID;
 
 @Service
-public class TencentClooudProvider {
+public class TencentCloudProvider {
     @Value("${tencentcloud.ufile.secretId}")
     private String secretId;
     @Value("${tencentcloud.ufile.secretKey}")
     private String secretKey;
-    @Value("tencentcloud.ufile.path")
+    @Value("${tencentcloud.ufile.path}")
     private String path;
-    @Value("tencentcloud.ufile.region_name")
+    @Value("${tencentcloud.ufile.region_name}")
     private String region_name;
-    @Value("tencentcloud.ufile.bucketName")
+    @Value("${tencentcloud.ufile.bucketName}")
     private String bucketName;
 
 
@@ -65,12 +65,16 @@ public class TencentClooudProvider {
 
         try {
             // 指定要上传的文件
-            File localFile = File.createTempFile("temp", null);
+            // 获取文件名
+            String fileName = file.getOriginalFilename();
+            // 获取文件后缀
+            String prefix=fileName.substring(fileName.lastIndexOf("."));
+            File localFile = File.createTempFile("temp",prefix);
             file.transferTo(localFile);
             // 指定要上传到的存储桶
             // 指定要上传到 COS 上对象键
             String key =  "/" +year + "/" +moth + "/" + day + "/" + generatedFileName;
-            PutObjectRequest putObjectRequest = new PutObjectRequest(bucketName, key, localFile);
+            PutObjectRequest putObjectRequest = new PutObjectRequest(this.bucketName, key, localFile);
             PutObjectResult putObjectResult = cosClient.putObject(putObjectRequest);
             return path + putObjectRequest.getKey();
         } catch (CosServiceException serverException) {
