@@ -112,7 +112,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>6.0.7</version>
                 <configuration>
-                    <url>jdbc:mysql://172.27.0.15:3306/community</url>
+                    <url>jdbc:mysql://cd-cdb-9f27mn2g.sql.tencentcdb.com:62719/community</url>
                     <user>root</user>
                     <password>@Lan921201</password>
                 </configuration>

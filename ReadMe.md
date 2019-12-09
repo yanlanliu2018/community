@@ -23,6 +23,7 @@
 - mvn package
 - java -jar -Dspring.profiles.active=production target/community-0.1.0.jar
 - ps -aux | grep java
+- mvn clean compile flyway:migrate
 
 
 
