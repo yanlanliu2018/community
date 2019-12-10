@@ -76,6 +76,9 @@ public class TencentCloudProvider {
             String key =  "/" +year + "/" +moth + "/" + day + "/" + generatedFileName;
             PutObjectRequest putObjectRequest = new PutObjectRequest(this.bucketName, key, localFile);
             PutObjectResult putObjectResult = cosClient.putObject(putObjectRequest);
+            if(localFile!=null){
+                localFile.delete();
+            }
             return path + putObjectRequest.getKey();
         } catch (CosServiceException serverException) {
             throw new CustomizeException(CustomizeErrorCode.FILE_UPLOAD_FAIL);
